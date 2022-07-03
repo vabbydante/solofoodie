@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401756433111",
+    "firebase_url": "https://solo-foodie-default-rtdb.firebaseio.com",
+    "project_id": "solo-foodie",
+    "storage_bucket": "solo-foodie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401756433111:android:728428dae05b3058af9e92",
+        "android_client_info": {
+          "package_name": "com.vaibhav.solofoodie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401756433111-mlffudn6mepta1b4jqh3u5e7pg2887fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQara3CO_NmXq6F_6J-mHCk4UZA5PrP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401756433111-mlffudn6mepta1b4jqh3u5e7pg2887fa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

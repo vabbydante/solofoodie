@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vaibhav.solofoodie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/solo_foodie_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/solo_foodie_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SoloFoodie"
+        tools:targetApi="31">
+        <activity
+            android:name=".OrderListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvailabilityCatalogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PantryBusinessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PantryRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PantryRegistrationCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PassengerLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PantryLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
